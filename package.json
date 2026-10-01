@@ -1,0 +1,32 @@
+{
+  "name": "luna-period-tracker",
+  "version": "1.0.0",
+  "description": "Luna - A simple, private period tracking app made to help you understand your cycle",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx serve",
+    "build": "echo 'No build required for static site'",
+    "test": "echo 'No tests configured yet'"
+  },
+  "keywords": [
+    "period tracking",
+    "menstrual cycle",
+    "health",
+    "women's health",
+    "cycle tracker",
+    "period app"
+  ],
+  "author": "wairimuclaire81-cmd",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wairimuclaire81-cmd/claire.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
